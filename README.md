@@ -1,6 +1,6 @@
 # Comparables Generator
 
-Uses the [AlphaVantage API](https://www.alphavantage.co/documentation/) to pull the current [market capitalization](https://www.investopedia.com/terms/m/marketcapitalization.asp), [Enterprise Value (EV)-to-Revenue multiple](https://www.investopedia.com/terms/e/ev-revenue-multiple.asp), and year-to-date (YTD) stock price change for a specified list of publicly traded companies. Each stat is delinated by a pipe in the output, as shown here:
+Uses the [AlphaVantage API](https://www.alphavantage.co/documentation/) and the [alpha_vantage Python wrapper](https://github.com/RomelTorres/alpha_vantage) to pull the current [market capitalization](https://www.investopedia.com/terms/m/marketcapitalization.asp), [Enterprise Value (EV)-to-Revenue multiple](https://www.investopedia.com/terms/e/ev-revenue-multiple.asp), and year-to-date (YTD) stock price change for a specified list of publicly traded companies. Each stat is delinated by a pipe in the output, as shown here:
 
 ![Image of example output](img/example-output.PNG)
 
